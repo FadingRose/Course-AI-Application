@@ -1,0 +1,16 @@
+    Initial commit: Added LaBSE training script
+
+    This commit introduces the initial version of the LaBSE training script. The script includes the following components:
+
+    1. Data download and loading functions for the PAWS-X dataset.
+    2. Custom dataset class `PAWSXDataset` for handling the dataset.
+    3. Model definition `TextSimilarityModel` using the LaBSE model from Hugging Face.
+    4. Training function `train_epoch` for training the model.
+    5. Evaluation function `evaluate` for evaluating the model on validation and test sets.
+    6. Function `plot_training_history` for visualizing the training and validation loss and accuracy.
+    7. Main function `main` to orchestrate the training process, including data loading, model initialization, training loop, and evaluation.
+
+    The script is designed to train a text similarity model using the LaBSE model on the PAWS-X dataset, with support for training, validation, and testing.
+
+    Changes:
+    - Added `LaBSE_train.py` script.
